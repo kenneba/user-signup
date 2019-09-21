@@ -2,8 +2,41 @@
 <html lang="en">
 <head>
     <title>Welcome</title>
+<style>
+    body{
+        background-color:beige;
+        }
+    
+    h1, form{
+        color:brown;
+    }
+    
+    form{
+        font-size:125%;
+    }
+    .label{
+        float:right;
+    }
+    div{
+        background-color: #ffe3c1;
+        width:40%;
+        border-radius: 10px;
+        padding:8px;
+        margin-bottom: 2%;
+        color:brown;
+        font-size:125%;
+    }
+    p{
+        color:rgb(255, 0, 0);
+        font-size: 75%;
+        font-style:unset;
+    }
+</style>
+
 </head>
 <body>
-    
+    {%block content%}
+
+    {% endblock %}
 </body>
 </html>
